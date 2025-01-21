@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sacred Shadows</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Sacred Shadows</h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#advice">Advice Reading</a></li>
+                <li><a href="#yesno">Yes/No Reading</a></li>
+                <li><a href="#timeline">Timeline Reading</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="advice" class="reading-section">
+            <h2>Advice Reading</h2>
+            <div class="cards">
+                <div class="card">Card 1</div>
+                <div class="card">Card 2</div>
+                <div class="card">Card 3</div>
+            </div>
+        </section>
+        <section id="yesno" class="reading-section">
+            <h2>Yes/No Reading</h2>
+            <div class="cards">
+                <div class="card">Card 1</div>
+                <div class="card">Card 2</div>
+            </div>
+        </section>
+        <section id="timeline" class="reading-section">
+            <h2>Timeline Reading</h2>
+            <div class="cards">
+                <div class="card">Card 1</div>
+                <div class="card">Card 2</div>
+                <div class="card">Card 3</div>
+                <div class="card">Card 4</div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Sacred Shadows. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
